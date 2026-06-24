@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Educativa Web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>WebLearn</h2>
+
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#proyecto">Proyecto</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#integrantes">Integrantes</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <div class="contenido-hero">
+        <h1>Plataforma Educativa de Desarrollo Web</h1>
+        <p>
+            Aprende los fundamentos de HTML, CSS y JavaScript
+            mediante videos educativos creados por estudiantes.
+        </p>
+
+        <button onclick="irVideos()">
+            Ver Videos
+        </button>
+    </div>
+</section>
+
+<section id="proyecto" class="proyecto">
+    <h2>Sobre el Proyecto</h2>
+
+    <p>
+        Esta plataforma fue desarrollada para compartir contenido
+        educativo relacionado con el desarrollo web.
+        Los videos explican conceptos fundamentales de HTML,
+        CSS y JavaScript.
+    </p>
+</section>
+
+<section id="videos" class="videos">
+
+    <h2>Galería de Videos</h2>
+
+   <div class="card">
+    <h3>JavaScript</h3>
+
+    <video controls>
+        <source src="videos/JSS.mp4" type="video/mp4">
+    </video>
+
+    <p>Explicación sobre JavaScript.</p>
+</div>
+
+       <div class="card">
+    <h3>Propiedades CSS</h3>
+
+    <video controls>
+        <source src="videos/Propiedades JSS.mp4" type="video/mp4">
+    </video>
+
+    <p>Explicación de propiedades JSS.</p>
+</div>
+        <div class="card">
+            <h3>Introducción a CSS</h3>
+
+            <video controls>
+                <source src="videos/css1.mp4" type="video/mp4">
+            </video>
+
+            <p>Diseño y estilos para páginas web.</p>
+        </div>
+
+        <div class="card">
+            <h3>Diseño con CSS</h3>
+
+            <video controls>
+                <source src="videos/css2.mp4" type="video/mp4">
+            </video>
+
+            <p>Colores, tipografías y distribución.</p>
+        </div>
+
+        <div class="card">
+            <h3>Variables en JavaScript</h3>
+
+            <video controls>
+                <source src="videos/js1.mp4" type="video/mp4">
+            </video>
+
+            <p>Introducción al lenguaje JavaScript.</p>
+        </div>
+
+        <div class="card">
+            <h3>Eventos en JavaScript</h3>
+
+            <video controls>
+                <source src="videos/js2.mp4" type="video/mp4">
+            </video>
+
+            <p>Interacción entre usuario y página web.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="integrantes" class="integrantes">
+    <h2>Integrantes</h2>
+
+    <ul>
+        <li>Jasmin Huanca Sanga</li>
+        <li>Britany Retamozo Cordero</li>
+        <li>Daniela Flores Vargas</li>
+        <li>Edison Zegarra Geronimo</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2026 Plataforma Educativa de Desarrollo Web</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
